@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button btnJogarID;
@@ -23,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
         btnJogarID.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                resultadoID.setText("Texto alterado");
+
+                Random randomico = new Random();
+
+                int numeroAleatorio = randomico.nextInt(10);
+
+                resultadoID.setText("Numero escolhido: " + numeroAleatorio);
             }
         });
 

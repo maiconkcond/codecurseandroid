@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="radiobutton.com.example.maiconh.radiobutton.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Qual a sua comida prefeida?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.00"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_weight="0.00"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:id="@+id/groupID" >
+
+        <RadioButton
+            android:text="Lasanha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioLasanhaID"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Parmagiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioParmegiana"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Macarrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioMacarraoID"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <Button
+        android:text="Escolher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEscolher"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEscolha"
+        android:layout_weight="0.00"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

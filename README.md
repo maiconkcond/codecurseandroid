@@ -1,12 +1,22 @@
-# codecurseandroid
+## Introduçao
 
-Códigos realizados durante o curso de Android =) 
+Criei o repositorio `codecurseandroid` para armazenar os apps criados no curso de Android do professor [Jamilton Damasceno](https://www.udemy.com/curso-completo-do-desenvolvedor-android/learn/v4/overview).
 
+:mortar_board:
 
-### Adivinha
+## Lista de Apps
 
-Primeiro APP, o intuito é adivinhar o número escolhido.
+- ATM Empresa Consultoria
+- Cara ou Coroa
+- Frases do Dia
+- Flappy Bird
+- Gasolina ou Alcool
+- Idade do Cachorro
+- Media Player
+- Minhas Anotaçoes
+- Qual a serie?
+- Signos
+- Som dos bichos
+- SQLite
 
-### Frases do dia
-
-App gera uma frase aleatória quando pressionado o botão. Visto conceito de Randon e Array. 
+:space_invader:
